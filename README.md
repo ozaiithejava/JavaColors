@@ -98,3 +98,22 @@ Bu renk listesi, renk adları ve RGB kodlarıyla birlikte aşağıda verilmişti
 - BEYAZ_TEPE: #F5F5F5 ![Beyaz Tepe](https://via.placeholder.com/15/F5F5F5/000000?text=+)
 - GÜL_BAHÇESİ: #FF007F ![Gül Bahçesi](https://via.placeholder.com/15/FF007F/000000?text=+)
 - ALTUN: #FFD700 ![Altın](https://via.placeholder.com/15/FFD700/000000?text=+)
+
+
+## örnek kulanım
+
+    public class RenkListesi {
+    public static final String KIRMIZI = "#FF0000";
+    public static final String YESIL = "#00FF00";
+    public static final String MAVI = "#0000FF";
+    // Diğer renkler burada final String olarak tanımlanabilir...
+
+    public static void main(String[] args) {
+        // Renk listesini yazdırın
+        System.out.println("# Renk Listesi ve Önizleme\n");
+        System.out.println("- KIRMIZI: " + KIRMIZI + " ![Kırmızı](https://via.placeholder.com/15/FF0000/000000?text=+)");
+        System.out.println("- YESIL: " + YESIL + " ![Yeşil](https://via.placeholder.com/15/00FF00/000000?text=+)");
+        System.out.println("- MAVI: " + MAVI + " ![Mavi](https://via.placeholder.com/15/0000FF/000000?text=+)");
+        // Diğer renkler burada kullanılabilir...
+    }
+    }
