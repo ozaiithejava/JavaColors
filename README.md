@@ -1,198 +1,100 @@
-# JavaColors
-100adet renk 
 
-public static final String KIRMIZI = "0xFF0000"; // Kırmızı
-public static final String YESIL = "0x00FF00"; // Yeşil
-public static final String MAVI = "0x0000FF"; // Mavi
-public static final String SARI = "0xFFFF00"; // Sarı
-public static final String TURUNCU = "0xFFA500"; // Turuncu
-public static final String MOR = "0x800080"; // Mor
-public static final String PEMBE = "0xFFC0CB"; // Pembe
-public static final String CYAN = "0x00FFFF"; // Cyan
-public static final String MACENTA = "0xFF00FF"; // Magenta
-public static final String LIME = "0x00FF00"; // Lime
-public static final String TEAL = "0x008080"; // Teal
-public static final String AQUA = "0x00FFFF"; // Aqua
-public static final String LAVANTA = "0x9E91C2"; // Lavanta
-public static final String KAHVERENGI = "0xA52A2A"; // Kahverengi
-public static final String MAROON = "0x800000"; // Maroon
-public static final String LACIVERT = "0x000080"; // Lacivert
-public static final String ZEYTINYESILI = "0x808000"; // Zeytin Yeşili
-public static final String GUMUS = "0xC0C0C0"; // Gümüş
-public static final String GRIMSI = "0x808080"; // Gri
-public static final String SIYAH = "0x000000"; // Siyah
-public static final String BEYAZ = "0xFFFFFF"; // Beyaz
-public static final String ALTIN = "0xFFD700"; // Altın
-public static final String GUMUS2 = "0xC0C0C0"; // Gümüş
-public static final String GRIMSI2 = "0xA0A0A0"; // Grimsi
-public static final String KOMURSIYAH = "0x282828"; // Kömür Siyah
-public static final String LACIVERTMAVI = "0x000080"; // Lacivert Mavi
-public static final String KRALIYEBEYAZI = "0x4287F5"; // Kraliyet Beyazı
-public static final String ORTA_MAVI = "0x807B04"; // Orta Mavi
-public static final String GOKMAVIZAMANI = "0x55B2B7"; // Gökyüzü Mavisi
-public static final String CYAN2 = "0x00FFFF"; // Cyan
-public static final String TEAL2 = "0x008000"; // Teal
-public static final String MORDAN_MOR = "0xEE82EE"; // Mordan Mor
-public static final String INDIRGO = "0x4B0082"; // İndigo
-public static final String TURKUAZ = "0x40E0D0"; // Turkuaz
-public static final String SOMON = "0xFA8072"; // Somon
-public static final String BEJ = "0xF5F5DC"; // Bej
-public static final String BRONZ = "0xD2B48C"; // Bronz
-public static final String ERİKSIYAH = "0xDDA0DD"; // Eriksiya
-public static final String KAKI = "0xC0C000"; // Kaki
-public static final String MERCAN = "0xFF6F61"; // Mercan
-public static final String SARIMSAK = "0xDAA520"; // Sarımsak
-public static final String LAVANTA_PEÇESİ = "0xFFF0F5"; // Lavanta Peçesi
-public static final String AKMURTA = "0x7FFFD4"; // Akmurta
-public static final String CİKOLATA = "0xD2691E"; // Çikolata
-public static final String TUĞLA = "0xB22222"; // Tuğla
-public static final String MURDUM = "0x800000"; // Murdum
-public static final String PEPERMİNT_KOKUSU = "0xE0FFFF"; // Pepermint Kokusu
-public static final String ARNAVUTKALDIRIMI = "0xF0E68C"; // Arnavut Kaldırımı
-public static final String ZEYTIN = "0x6B8E23"; // Zeytin
-public static final String KURŞUNI_GRİ = "0x708090"; // Kurşuni Gri
-public static final String FUŞYA = "0xFF00FF"; // Fuşya
-public static final String KARMAKARISIK = "0xBDB76B"; // Karma Karışık
-public static final String KOYUMAVI = "0x4169E1"; // Koyu Mavi
-public static final String KOYUSIYAH = "0x000000"; // Koyu Siyah
-public static final String KOYUGRI = "0x696969"; // Koyu Gri
-public static final String ZİNCİR_KAHVERENGİ = "0xD2691E"; // Zincir Kahverengi
-public static final String BOZKURT_GÖZÜ = "0x8B4513"; // Bozkurt Gözü
-public static final String YAVRUMAVI = "0x4682B4"; // Yavru Mavi
-public static final String ZÜMRÜT = "0x008000"; // Zümrüt
-public static final String GÜNEŞSARI = "0xFFFF00"; // Güneş Sarı
-public static final String JET_SİYAH = "0x000000"; // Jet Siyah
-public static final String BATAKLIK = "0x556B2F"; // Bataklık
-public static final String KARA_KUM = "0x8B4513"; // Kara Kum
-public static final String SARARMIS_GÜNISIĞI = "0xFFFACD"; // Sararmış Güneş Işığı
-public static final String KIZIL_KAFA = "0xB22222"; // Kızıl Kafa
-public static final String KUM_TENİ = "0xECD540"; // Kum Teni
-public static final String GÜNEŞ_PEMBESİ = "0xFFA07A"; // Güneş Pembesi
-public static final String KUMRAL = "0xD2B48C"; // Kumral
-public static final String ÇÖL_KUMU = "0xF5DEB3"; // Çöl Kum
-public static final String BUĞDAY = "0xF5DEB3"; // Buğday
-public static final String BRONZ2 = "0xCD7F32"; // Bronz
-public static final String KARA_LACIVERT = "0x000080"; // Kara Lacivert
-public static final String BEYAZ_GÜMÜŞ = "0xDCDCDC"; // Beyaz Gümüş
-public static final String BEYAZ_GRİ = "0xD3D3D3"; // Beyaz Gri
-public static final String GRİ_KÖMÜR = "0x080808"; // Gri Kömür
-public static final String GRİ_KURŞUN = "0x2F4F4F"; // Gri Kurşun
-public static final String AYÇİÇEK = "0xFFD700"; // Ayçiçek
-public static final String LAVANTA_GRİ = "0x98817B"; // Lavanta Gri
-public static final String GÜL_KIRMIZISI = "0xC71585"; // Gül Kırmızısı
-public static final String GÜL_PEMBE = "0xFF007F"; // Gül Pembesi
-public static final String KAHVE_KREM = "0xF5F5DC"; // Kahve Krem
-public static final String KÜF_KAHVERENGİ = "0x8B4513"; // Küf Kahverengi
-public static final String TARÇIN = "0xD2691E"; // Tarçın
-public static final String ZEYTIN_YAĞI = "0x808000"; // Zeytin Yağı
-public static final String SEBZE_YEŞILI = "0x00FF00"; // Sebze Yeşili
-public static final String SU_YEŞILI = "0x32CD32"; // Su Yeşili
-public static final String MİDYE_KABUĞU = "0x800000"; // Midye Kabuğu
-public static final String KIZIL = "0xFF4500"; // Kızıl
-public static final String PORTAKAL = "0xFFA500"; // Portakal
-public static final String FILDİŞI = "0xFFF8DC"; // Fildişi
-public static final String PUDRA = "0xFF69B4"; // Pudra
-public static final String SARDUNYA = "0x1E90FF"; // Sardunya
-public static final String BEYAZ_TEPE = "0xF5F5F5"; // Beyaz Tepe
-public static final String GÜL_BAHÇESİ = "0xFF007F"; // Gül Bahçesi
-public static final String ALTUN = "0xFFD700"; // Altın
-
-# Renk Listesi
+# Renk Listesi ve Önizleme
 
 Bu renk listesi, renk adları ve RGB kodlarıyla birlikte aşağıda verilmiştir.
 
-- KIRMIZI: #FF0000
-- YESIL: #00FF00
-- MAVI: #0000FF
-- SARI: #FFFF00
-- TURUNCU: #FFA500
-- MOR: #800080
-- PEMBE: #FFC0CB
-- CYAN: #00FFFF
-- MACENTA: #FF00FF
-- LIME: #00FF00
-- TEAL: #008080
-- AQUA: #00FFFF
-- LAVANTA: #9E91C2
-- KAHVERENGI: #A52A2A
-- MAROON: #800000
-- LACIVERT: #000080
-- ZEYTINYESILI: #808000
-- GUMUS: #C0C0C0
-- GRIMSI: #808080
-- SIYAH: #000000
-- BEYAZ: #FFFFFF
-- ALTIN: #FFD700
-- GUMUS2: #C0C0C0
-- GRIMSI2: #A0A0A0
-- KOMURSIYAH: #282828
-- LACIVERTMAVI: #000080
-- KRALIYEBEYAZI: #4287F5
-- ORTA_MAVI: #807B04
-- GOKMAVIZAMANI: #55B2B7
-- CYAN2: #00FFFF
-- TEAL2: #008000
-- MORDAN_MOR: #EE82EE
-- INDIRGO: #4B0082
-- TURKUAZ: #40E0D0
-- SOMON: #FA8072
-- BEJ: #F5F5DC
-- BRONZ: #D2B48C
-- ERİKSIYAH: #DDA0DD
-- KAKI: #C0C0
-- MERCAN: #FF6F61
-- SARIMSAK: #DAA520
-- LAVANTA_PEÇESİ: #FFF0F5
-- AKMURTA: #7FFFD4
-- CİKOLATA: #D2691E
-- TUĞLA: #B22222
-- MURDUM: #800000
-- PEPERMİNT_KOKUSU: #E0FFFF
-- ARNAVUTKALDIRIMI: #F0E68C
-- ZEYTIN: #6B8E23
-- KURŞUNI_GRİ: #708090
-- FUŞYA: #FF00FF
-- KARMAKARISIK: #BDB76B
-- KOYUMAVI: #4169E1
-- KOYUSIYAH: #000000
-- KOYUGRI: #696969
-- ZİNCİR_KAHVERENGİ: #D2691E
-- BOZKURT_GÖZÜ: #8B4513
-- YAVRUMAVI: #4682B4
-- ZÜMRÜT: #008000
-- GÜNEŞSARI: #FFFF00
-- JET_SİYAH: #000000
-- BATAKLIK: #556B2F
-- KARA_KUM: #8B4513
-- SARARMIS_GÜNISIĞI: #FFFACD
-- KIZIL_KAFA: #B22222
-- KUM_TENİ: #ECD540
-- GÜNEŞ_PEMBESİ: #FFA07A
-- KUMRAL: #D2B48C
-- ÇÖL_KUM: #F5DEB3
-- BUĞDAY: #F5DEB3
-- BRONZ2: #CD7F32
-- KARA_LACIVERT: #000080
-- BEYAZ_GÜMÜŞ: #DCDCDC
-- BEYAZ_GRİ: #D3D3D3
-- GRİ_KÖMÜR: #080808
-- GRİ_KURŞUN: #2F4F4F
-- AYÇİÇEK: #FFD700
-- LAVANTA_GRİ: #98817B
-- GÜL_KIRMIZISI: #C71585
-- GÜL_PEMBE: #FF007F
-- KAHVE_KREM: #F5F5DC
-- KÜF_KAHVERENGİ: #8B4513
-- TARÇIN: #D2691E
-- ZEYTIN_YAĞI: #808000
-- SEBZE_YEŞILI: #00FF00
-- SU_YEŞILI: #32CD32
-- MİDYE_KABUĞU: #800000
-- KIZIL: #FF4500
-- PORTAKAL: #FFA500
-- FILDİŞI: #FFF8DC
-- PUDRA: #FF69B4
-- SARDUNYA: #1E90FF
-- BEYAZ_TEPE: #F5F5F5
-- GÜL_BAHÇESİ: #FF007F
-- ALTUN: #FFD700
+- KIRMIZI: #FF0000 ![Kırmızı](https://via.placeholder.com/15/FF0000/000000?text=+)
+- YESIL: #00FF00 ![Yeşil](https://via.placeholder.com/15/00FF00/000000?text=+)
+- MAVI: #0000FF ![Mavi](https://via.placeholder.com/15/0000FF/000000?text=+)
+- SARI: #FFFF00 ![Sarı](https://via.placeholder.com/15/FFFF00/000000?text=+)
+- TURUNCU: #FFA500 ![Turuncu](https://via.placeholder.com/15/FFA500/000000?text=+)
+- MOR: #800080 ![Mor](https://via.placeholder.com/15/800080/000000?text=+)
+- PEMBE: #FFC0CB ![Pembe](https://via.placeholder.com/15/FFC0CB/000000?text=+)
+- CYAN: #00FFFF ![Cyan](https://via.placeholder.com/15/00FFFF/000000?text=+)
+- MACENTA: #FF00FF ![Magenta](https://via.placeholder.com/15/FF00FF/000000?text=+)
+- LIME: #00FF00 ![Lime](https://via.placeholder.com/15/00FF00/000000?text=+)
+- TEAL: #008080 ![Teal](https://via.placeholder.com/15/008080/000000?text=+)
+- AQUA: #00FFFF ![Aqua](https://via.placeholder.com/15/00FFFF/000000?text=+)
+- LAVANTA: #9E91C2 ![Lavanta](https://via.placeholder.com/15/9E91C2/000000?text=+)
+- KAHVERENGI: #A52A2A ![Kahverengi](https://via.placeholder.com/15/A52A2A/000000?text=+)
+- MAROON: #800000 ![Maroon](https://via.placeholder.com/15/800000/000000?text=+)
+- LACIVERT: #000080 ![Lacivert](https://via.placeholder.com/15/000080/000000?text=+)
+- ZEYTINYESILI: #808000 ![Zeytin Yeşili](https://via.placeholder.com/15/808000/000000?text=+)
+- GUMUS: #C0C0C0 ![Gümüş](https://via.placeholder.com/15/C0C0C0/000000?text=+)
+- GRIMSI: #808080 ![Grimsi](https://via.placeholder.com/15/808080/000000?text=+)
+- SIYAH: #000000 ![Siyah](https://via.placeholder.com/15/000000/000000?text=+)
+- BEYAZ: #FFFFFF ![Beyaz](https://via.placeholder.com/15/FFFFFF/000000?text=+)
+- ALTIN: #FFD700 ![Altın](https://via.placeholder.com/15/FFD700/000000?text=+)
+- GUMUS2: #C0C0C0 ![Gümüş](https://via.placeholder.com/15/C0C0C0/000000?text=+)
+- GRIMSI2: #A0A0A0 ![Grimsi](https://via.placeholder.com/15/A0A0A0/000000?text=+)
+- KOMURSIYAH: #282828 ![Kömür Siyah](https://via.placeholder.com/15/282828/000000?text=+)
+- LACIVERTMAVI: #000080 ![Lacivert Mavi](https://via.placeholder.com/15/000080/000000?text=+)
+- KRALIYEBEYAZI: #4287F5 ![Kraliyet Beyazı](https://via.placeholder.com/15/4287F5/000000?text=+)
+- ORTA_MAVI: #807B04 ![Orta Mavi](https://via.placeholder.com/15/807B04/000000?text=+)
+- GOKMAVIZAMANI: #55B2B7 ![Gökyüzü Mavisi](https://via.placeholder.com/15/55B2B7/000000?text=+)
+- CYAN2: #00FFFF ![Cyan](https://via.placeholder.com/15/00FFFF/000000?text=+)
+- TEAL2: #008000 ![Teal](https://via.placeholder.com/15/008000/000000?text=+)
+- MORDAN_MOR: #EE82EE ![Mordan Mor](https://via.placeholder.com/15/EE82EE/000000?text=+)
+- INDIRGO: #4B0082 ![İndigo](https://via.placeholder.com/15/4B0082/000000?text=+)
+- TURKUAZ: #40E0D0 ![Turkuaz](https://via.placeholder.com/15/40E0D0/000000?text=+)
+- SOMON: #FA8072 ![Somon](https://via.placeholder.com/15/FA8072/000000?text=+)
+- BEJ: #F5F5DC ![Bej](https://via.placeholder.com/15/F5F5DC/000000?text=+)
+- BRONZ: #D2B48C ![Bronz](https://via.placeholder.com/15/D2B48C/000000?text=+)
+- ERİKSIYAH: #DDA0DD ![Eriksiya](https://via.placeholder.com/15/DDA0DD/000000?text=+)
+- KAKI: #C0C0 ![Kaki](https://via.placeholder.com/15/C0C0/000000?text=+)
+- MERCAN: #FF6F61 ![Mercan](https://via.placeholder.com/15/FF6F61/000000?text=+)
+- SARIMSAK: #DAA520 ![Sarımsak](https://via.placeholder.com/15/DAA520/000000?text=+)
+- LAVANTA_PEÇESİ: #FFF0F5 ![Lavanta Peçesi](https://via.placeholder.com/15/FFF0F5/000000?text=+)
+- AKMURTA: #7FFFD4 ![Akmurta](https://via.placeholder.com/15/7FFFD4/000000?text=+)
+- CİKOLATA: #D2691E ![Çikolata](https://via.placeholder.com/15/D2691E/000000?text=+)
+- TUĞLA: #B22222 ![Tuğla](https://via.placeholder.com/15/B22222/000000?text=+)
+- MURDUM: #800000 ![Murdum](https://via.placeholder.com/15/800000/000000?text=+)
+- PEPERMİNT_KOKUSU: #E0FFFF ![Pepermint Kokusu](https://via.placeholder.com/15/E0FFFF/000000?text=+)
+- ARNAVUTKALDIRIMI: #F0E68C ![Arnavut Kaldırımı](https://via.placeholder.com/15/F0E68C/000000?text=+)
+- ZEYTIN: #6B8E23 ![Zeytin](https://via.placeholder.com/15/6B8E23/000000?text=+)
+- KURŞUNI_GRİ: #708090 ![Kurşuni Gri](https://via.placeholder.com/15/708090/000000?text=+)
+- FUŞYA: #FF00FF ![Fuşya](https://via.placeholder.com/15/FF00FF/000000?text=+)
+- KARMAKARISIK: #BDB76B ![Karma Karışık](https://via.placeholder.com/15/BDB76B/000000?text=+)
+- KOYUMAVI: #4169E1 ![Koyu Mavi](https://via.placeholder.com/15/4169E1/000000?text=+)
+- KOYUSIYAH: #000000 ![Koyu Siyah](https://via.placeholder.com/15/000000/000000?text=+)
+- KOYUGRI: #696969 ![Koyu Gri](https://via.placeholder.com/15/696969/000000?text=+)
+- ZİNCİR_KAHVERENGİ: #D2691E ![Zincir Kahverengi](https://via.placeholder.com/15/D2691E/000000?text=+)
+- BOZKURT_GÖZÜ: #8B4513 ![Bozkurt Gözü](https://via.placeholder.com/15/8B4513/000000?text=+)
+- YAVRUMAVI: #4682B4 ![Yavru Mavi](https://via.placeholder.com/15/4682B4/000000?text=+)
+- ZÜMRÜT: #008000 ![Zümrüt](https://via.placeholder.com/15/008000/000000?text=+)
+- GÜNEŞSARI: #FFFF00 ![Güneş Sarı](https://via.placeholder.com/15/FFFF00/000000?text=+)
+- JET_SİYAH: #000000 ![Jet Siyah](https://via.placeholder.com/15/000000/000000?text=+)
+- BATAKLIK: #556B2F ![Bataklık](https://via.placeholder.com/15/556B2F/000000?text=+)
+- KARA_KUM: #8B4513 ![Kara Kum](https://via.placeholder.com/15/8B4513/000000?text=+)
+- SARARMIS_GÜNISIĞI: #FFFACD ![Sararmış Güneş Işığı](https://via.placeholder.com/15/FFFACD/000000?text=+)
+- KIZIL_KAFA: #B22222 ![Kızıl Kafa](https://via.placeholder.com/15/B22222/000000?text=+)
+- KUM_TENİ: #ECD540 ![Kum Teni](https://via.placeholder.com/15/ECD540/000000?text=+)
+- GÜNEŞ_PEMBESİ: #FFA07A ![Güneş Pembesi](https://via.placeholder.com/15/FFA07A/000000?text=+)
+- KUMRAL: #D2B48C ![Kumral](https://via.placeholder.com/15/D2B48C/000000?text=+)
+- ÇÖL_KUM: #F5DEB3 ![Çöl Kum](https://via.placeholder.com/15/F5DEB3/000000?text=+)
+- BUĞDAY: #F5DEB3 ![Buğday](https://via.placeholder.com/15/F5DEB3/000000?text=+)
+- BRONZ2: #CD7F32 ![Bronz](https://via.placeholder.com/15/CD7F32/000000?text=+)
+- KARA_LACIVERT: #000080 ![Kara Lacivert](https://via.placeholder.com/15/000080/000000?text=+)
+- BEYAZ_GÜMÜŞ: #DCDCDC ![Beyaz Gümüş](https://via.placeholder.com/15/DCDCDC/000000?text=+)
+- BEYAZ_GRİ: #D3D3D3 ![Beyaz Gri](https://via.placeholder.com/15/D3D3D3/000000?text=+)
+- GRİ_KÖMÜR: #080808 ![Gri Kömür](https://via.placeholder.com/15/080808/000000?text=+)
+- GRİ_KURŞUN: #2F4F4F ![Gri Kurşun](https://via.placeholder.com/15/2F4F4F/000000?text=+)
+- AYÇİÇEK: #FFD700 ![Ayçiçek](https://via.placeholder.com/15/FFD700/000000?text=+)
+- LAVANTA_GRİ: #98817B ![Lavanta Gri](https://via.placeholder.com/15/98817B/000000?text=+)
+- GÜL_KIRMIZISI: #C71585 ![Gül Kırmızısı](https://via.placeholder.com/15/C71585/000000?text=+)
+- GÜL_PEMBE: #FF007F ![Gül Pembesi](https://via.placeholder.com/15/FF007F/000000?text=+)
+- KAHVE_KREM: #F5F5DC ![Kahve Krem](https://via.placeholder.com/15/F5F5DC/000000?text=+)
+- KÜF_KAHVERENGİ: #8B4513 ![Küf Kahverengi](https://via.placeholder.com/15/8B4513/000000?text=+)
+- TARÇIN: #D2691E ![Tarçın](https://via.placeholder.com/15/D2691E/000000?text=+)
+- ZEYTIN_YAĞI: #808000 ![Zeytin Yağı](https://via.placeholder.com/15/808000/000000?text=+)
+- SEBZE_YEŞILI: #00FF00 ![Sebze Yeşili](https://via.placeholder.com/15/00FF00/000000?text=+)
+- SU_YEŞILI: #32CD32 ![Su Yeşili](https://via.placeholder.com/15/32CD32/000000?text=+)
+- MİDYE_KABUĞU: #800000 ![Midye Kabuğu](https://via.placeholder.com/15/800000/000000?text=+)
+- KIZIL: #FF4500 ![Kızıl](https://via.placeholder.com/15/FF4500/000000?text=+)
+- PORTAKAL: #FFA500 ![Portakal](https://via.placeholder.com/15/FFA500/000000?text=+)
+- FILDİŞI: #FFF8DC ![Fildişi](https://via.placeholder.com/15/FFF8DC/000000?text=+)
+- PUDRA: #FF69B4 ![Pudra](https://via.placeholder.com/15/FF69B4/000000?text=+)
+- SARDUNYA: #1E90FF ![Sardunya](https://via.placeholder.com/15/1E90FF/000000?text=+)
+- BEYAZ_TEPE: #F5F5F5 ![Beyaz Tepe](https://via.placeholder.com/15/F5F5F5/000000?text=+)
+- GÜL_BAHÇESİ: #FF007F ![Gül Bahçesi](https://via.placeholder.com/15/FF007F/000000?text=+)
+- ALTUN: #FFD700 ![Altın](https://via.placeholder.com/15/FFD700/000000?text=+)
